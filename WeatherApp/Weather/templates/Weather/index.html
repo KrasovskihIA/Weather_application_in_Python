@@ -32,7 +32,9 @@
             <div class="col-4 offset-1">
             <h1>Информация</h1>
             <div class="alert alert-danger">
-                Погода в Москве
+                <b>Город:</b> {{ info.city }}<br>
+                <b>Температура:</b> {{ info.temp }},<sup>o</sup><br>
+                <img src="htpp://openweathermao.org/img/w/{{ info.icon }}" alt="" class="img-thumbnail">
             </div>
         </div>
           </div>
